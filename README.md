@@ -53,7 +53,8 @@
 ## 📫 Liens utiles
 
 - 💼 [GitHub Profil](https://github.com/Ch3rch3ur)
-- 💼 [Site Web](https://professionnel.hopto.org) 
+- 💼 [Site Web](https://professionnel.hopto.org)
+- 💼 [Linkedin](https://linkedin.com/in/joris-godard-ba85b1350/) 
 
 ---
 
