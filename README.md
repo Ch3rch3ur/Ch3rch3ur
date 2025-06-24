@@ -11,6 +11,14 @@
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="animated snake" />
+</p>
+
+> ✨ Ce snake suit ton activité GitHub dans un style interactif stylisé sans JS. Généré automatiquement par [Platane/snk](https://github.com/Platane/snk).
+
+---
+
 ## 🚀 À propos de moi
 
 🎓 Étudiant en 2ᵉ année de **BTS CIEL IR**, je me spécialise dans les architectures logicielles **N-Tiers** et la manipulation de **Java Enterprise**.  
@@ -25,10 +33,10 @@
 |------------------|-------------|
 | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) | Back-end solide & objets bien encapsulés |
 | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) | Build tool de confiance |
-| ![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white) | IDE maison |
+| ![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white) | IDE |
 | ![Wildfly](https://img.shields.io/badge/Wildfly-000000?style=for-the-badge&logo=wildfly&logoColor=white) | Serveur JEE |
 | N-Tiers 3 niveaux | Physique, Métier, Client — bien séparés |
-| Beans & Servlets | L’essence du JEE maîtrisée |
+| Beans & Servlets | L’essence du JEE |
 
 ---
 
@@ -42,55 +50,11 @@
 
 ---
 
-## 🌀 Petit bonus interactif
+## 📫 Liens utiles
 
-```html
-<!-- Snack interactif avec la souris -->
-<canvas id="canvas"></canvas>
-<script>
-  const canvas = document.getElementById('canvas');
-  const ctx = canvas.getContext('2d');
-  let width, height;
-  const particles = [];
+- 💼 [GitHub Profil](https://github.com/Ch3rch3ur)
+- 💼 [Site Web](https://professionnel.hopto.org) 
 
-  function resize() {
-    width = canvas.width = window.innerWidth;
-    height = canvas.height = window.innerHeight;
-  }
+---
 
-  window.addEventListener('resize', resize);
-  resize();
-
-  document.addEventListener('mousemove', (e) => {
-    for (let i = 0; i < 5; i++) {
-      particles.push({
-        x: e.clientX,
-        y: e.clientY,
-        dx: (Math.random() - 0.5) * 2,
-        dy: (Math.random() - 0.5) * 2,
-        life: 100
-      });
-    }
-  });
-
-  function draw() {
-    ctx.fillStyle = 'rgba(0,0,0,0.1)';
-    ctx.fillRect(0, 0, width, height);
-
-    for (let i = particles.length - 1; i >= 0; i--) {
-      const p = particles[i];
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, 2, 0, Math.PI * 2);
-      ctx.fillStyle = '#38bdf8';
-      ctx.fill();
-      p.x += p.dx;
-      p.y += p.dy;
-      p.life -= 1;
-      if (p.life <= 0) particles.splice(i, 1);
-    }
-
-    requestAnimationFrame(draw);
-  }
-
-  draw();
-</script>
+🧬 *"Pas besoin de complexité quand la clarté fait le boulot."*
