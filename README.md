@@ -15,13 +15,13 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="animated snake" />
 </p>
 
-> ✨ Ce snake suit ton activité GitHub dans un style interactif stylisé sans JS. Généré automatiquement par [Platane/snk](https://github.com/Platane/snk).
+> ✨ Ce snake suit l'activité GitHub dans un style interactif stylisé. Généré automatiquement par [Platane/snk](https://github.com/Platane/snk).
 
 ---
 
 ## 🚀 À propos de moi
 
-🎓 Étudiant en 2ᵉ année de **BTS CIEL IR**, je me spécialise dans les architectures logicielles **N-Tiers** et la manipulation de **Java Enterprise**.  
+🎓 Ancien étudiant en **BTS CIEL IR**, je me spécialise dans les architectures logicielles **N-Tiers** et la manipulation de **Java Enterprise**.  
 🧠 J'aime construire des applis efficaces, modulaires et bien pensées, **sans prise de tête**.  
 🔍 Toujours à la recherche de nouvelles idées et approches simples pour résoudre des problèmes complexes.
 
