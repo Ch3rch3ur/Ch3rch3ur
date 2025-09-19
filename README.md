@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>Un explorateur du code qui transforme la complexité en élégance.</em><br>
-  <em>Actuellement en BTS CIEL option Informatique & Réseaux.</em>
+  <em></em>
 </p>
 
 <div align="center">
