@@ -14,9 +14,9 @@ Titulaire d'un **BTS CIEL option IR**, je poursuis une montée en compétences e
 |--------------------|------------------------------------------------------------------------------------|
 | **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
 | **Réseaux**        | Cisco (switches/routeurs - partiquer en formation), pfSense, WireGuard, TCP/IP, DNS (A/PTR/SRV), DHCP, VLAN, NAT, Firewall    |
-| **Virtualisation** | VirtualBox, Active Directory, Hyperviseurs                                         |
+| **Virtualisation** | VirtualBox, Active Directory                                         |
 | **Scripting**      | Bash, Python, PowerShell                                                           |
-| **Services**       | Apache, Samba, VPN, Kerberos, SSSD, PAM, NSS, DNS                                 |
+| **Services**       | Apache, VPN, Kerberos, SSSD, PAM, NSS, DNS                                 |
 | **Sécurité**       | Let's Encrypt, HTTPS, UFW, Headers HTTP (CSP, HSTS, X-Frame-Options)             |
 | **Authentification** | Active Directory, Kerberos, LDAP, Gestion des privilèges                        |
 | **En apprentissage** | Monitoring (Zabbix, Prometheus), Automatisation (Ansible, Terraform)            |
