@@ -27,7 +27,7 @@ Je développe activement des projets pour approfondir mes compétences en admini
 
 ### 📌 Projets en Vedette
 
-#### 🏢 [Infrastructure Active Directory Hybride](lien-vers-repo)
+#### 🏢 [Infrastructure Active Directory Hybride](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-ActiveDirectory-Debian)
 Mise en place complète d'un Active Directory sous Windows Server 2022 avec intégration Linux
 - Serveur AD avec gestion centralisée des utilisateurs et politiques de groupe
 - Intégration client Debian dans le domaine Windows
@@ -35,7 +35,7 @@ Mise en place complète d'un Active Directory sous Windows Server 2022 avec int�
 - Documentation complète de déploiement et troubleshooting
 - **Stack:** Windows Server 2022, Debian, Samba, LDAP
 
-#### 🏠 [Homelab Multi-OS Virtualisé](lien-vers-repo)
+#### 🏠 [Homelab Multi-OS Virtualisé](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-Homelab-pfSense)
 Infrastructure de homelab complète avec segmentation réseau et environnement multi-systèmes
 - Firewall pfSense pour la segmentation et sécurisation réseau
 - Windows Server 2022 pour services centralisés (AD, DNS, DHCP)
@@ -43,7 +43,7 @@ Infrastructure de homelab complète avec segmentation réseau et environnement m
 - Architecture réseau complète avec VLANs
 - **Stack:** VirtualBox, pfSense, Windows Server, Debian, Kali Linux
 
-#### 🔐 [VPN Personnel WireGuard](lien-vers-repo)
+#### 🔐 [VPN Personnel WireGuard](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-VPN-WireGuard)
 Déploiement d'un VPN privé sécurisé pour accès distant
 - Configuration serveur WireGuard optimisée
 - Accès distant sécurisé à l'infrastructure personnelle
@@ -51,7 +51,7 @@ Déploiement d'un VPN privé sécurisé pour accès distant
 - Documentation d'installation et configuration clients
 - **Stack:** WireGuard, Linux, Routing
 
-#### 🌐 [Portfolio Professionnel sur Apache](https://professionnel.hopto.org)
+#### 🌐 [Portfolio Professionnel sur Apache](https://professionnel.hopto.org) [Lien GitHub](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-Serveur-Web-Apache)
 Site portfolio hébergé sur serveur web auto-hébergé
 - Serveur web Apache configuré et sécurisé
 - Hébergement autonome avec nom de domaine
