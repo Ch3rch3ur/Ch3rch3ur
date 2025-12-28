@@ -33,7 +33,7 @@ Mise en place complète d'un Active Directory sous Windows Server 2022 avec int�
 - Intégration client Debian dans le domaine Windows
 - Configuration Samba pour l'interopérabilité
 - Documentation complète de déploiement et troubleshooting
-- **Stack:** Windows Server 2022, Debian, Samba, LDAP
+- **Stack:** Windows Server 2022, Debian, LDAP
 
 #### 🏠 [Homelab Multi-OS Virtualisé](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-Homelab-pfSense)
 Infrastructure de homelab complète avec segmentation réseau et environnement multi-systèmes
@@ -51,12 +51,13 @@ Déploiement d'un VPN privé sécurisé pour accès distant
 - Documentation d'installation et configuration clients
 - **Stack:** WireGuard, Linux, Routing
 
-#### 🌐 [Portfolio Professionnel sur Apache](https://professionnel.hopto.org) [Lien GitHub](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-Serveur-Web-Apache)
+#### 🌐 [Portfolio Professionnel sur Apache](https://professionnel.hopto.org) 
 Site portfolio hébergé sur serveur web auto-hébergé
 - Serveur web Apache configuré et sécurisé
 - Hébergement autonome avec nom de domaine
 - Configuration SSL/TLS
 - **Stack:** Apache, HTML/CSS, Linux
+[Lien GitHub](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-Serveur-Web-Apache)
 
 ---
 
