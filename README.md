@@ -16,7 +16,7 @@ Passionné par l'infrastructure IT et la sécurité réseau, je conçois et main
 | **Réseaux**        | Cisco, pfSense, WireGuard, TCP/IP, DNS, DHCP, VLAN, Routage                      |
 | **Virtualisation** | VirtualBox, Active Directory                                                       |
 | **Scripting**      | Bash, Python, PowerShell                                                           |
-| **Services**       | Apache, Samba, VPN                                                                 |
+| **Services**       | Apache, Active Directory, VPN                                                      |
 | **En apprentissage** | Monitoring (Zabbix, Prometheus), Automatisation (Ansible, Terraform)            |
 
 ---
