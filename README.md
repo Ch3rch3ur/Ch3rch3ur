@@ -75,16 +75,6 @@ Approche orientée exploitation :
 
 ---
 
-## GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ch3rch3ur&show_icons=true&theme=tokyonight&hide_border=true" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ch3rch3ur&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ## Liens
 
 - GitHub : https://github.com/Ch3rch3ur  
