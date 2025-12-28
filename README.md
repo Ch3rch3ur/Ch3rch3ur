@@ -1,86 +1,98 @@
-<h1 align="center">Ch3rch3ur</h1>
+# 👋 Bonjour, je suis Ch3rch3ur
 
-<p align="center">
-  Administration Systèmes & Réseaux · TCP/IP · Exploitation · Sécurité de base
-</p>
+## 🔧 Administrateur Systèmes & Réseaux
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&width=520&lines=Administration+Syst%C3%A8mes+%26+R%C3%A9seaux;TCP%2FIP+%7C+OSI+Model;Services+%7C+Supervision+%7C+S%C3%A9curit%C3%A9;Build.+Deploy.+Operate." alt="Typing SVG" />
-</div>
+Passionné par l'infrastructure IT et la sécurité réseau, je conçois et maintiens des environnements système robustes et sécurisés. Mon expertise couvre l'administration système, la virtualisation, et la configuration réseau.
+
+📍 **France** | 📫 [GitHub](https://github.com/Ch3rch3ur) | [Portfolio](https://professionnel.hopto.org) | [LinkedIn](https://linkedin.com/in/joris-godard-ba85b1350/)
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github activity snake" />
-</p>
+## 💼 Compétences Techniques
+
+| Catégorie          | Technologies/Outils                                                                 |
+|--------------------|------------------------------------------------------------------------------------|
+| **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
+| **Réseaux**        | Cisco, pfSense, WireGuard, TCP/IP, DNS, DHCP, VLAN, Routage                      |
+| **Virtualisation** | VirtualBox, Active Directory                                                       |
+| **Scripting**      | Bash, Python, PowerShell                                                           |
+| **Services**       | Apache, Samba, VPN                                                                 |
+| **En apprentissage** | Monitoring (Zabbix, Prometheus), Automatisation (Ansible, Terraform)            |
 
 ---
 
-## Profil
+## 🚀 Projets Personnels
 
-Ancien étudiant en **BTS CIEL – Informatique & Réseaux**, spécialisé en **administration systèmes et réseaux**.
+Je développe activement des projets pour approfondir mes compétences en administration système et partager mes configurations avec la communauté.
 
-Approche orientée exploitation :
-- compréhension complète de la pile **OSI / TCP-IP**
-- mise en place, configuration et maintien des services
-- diagnostic réseau et applicatif
-- séparation claire entre **infrastructure**, **services** et **applications**
+### 📌 Projets en Vedette
 
----
+#### 🏢 [Infrastructure Active Directory Hybride](lien-vers-repo)
+Mise en place complète d'un Active Directory sous Windows Server 2022 avec intégration Linux
+- Serveur AD avec gestion centralisée des utilisateurs et politiques de groupe
+- Intégration client Debian dans le domaine Windows
+- Configuration Samba pour l'interopérabilité
+- Documentation complète de déploiement et troubleshooting
+- **Stack:** Windows Server 2022, Debian, Samba, LDAP
 
-## Compétences Systèmes & Réseaux
+#### 🏠 [Homelab Multi-OS Virtualisé](lien-vers-repo)
+Infrastructure de homelab complète avec segmentation réseau et environnement multi-systèmes
+- Firewall pfSense pour la segmentation et sécurisation réseau
+- Windows Server 2022 pour services centralisés (AD, DNS, DHCP)
+- Plusieurs machines Linux pour différents rôles (tests, services)
+- Architecture réseau complète avec VLANs
+- **Stack:** VirtualBox, pfSense, Windows Server, Debian, Kali Linux
 
-### Réseaux
+#### 🔐 [VPN Personnel WireGuard](lien-vers-repo)
+Déploiement d'un VPN privé sécurisé pour accès distant
+- Configuration serveur WireGuard optimisée
+- Accès distant sécurisé à l'infrastructure personnelle
+- Gestion des clés et authentification
+- Documentation d'installation et configuration clients
+- **Stack:** WireGuard, Linux, Routing
 
-- Modèle **OSI (L1 → L7)** et **TCP/IP**
-- Adressage IP, ports, services
-- Communication client/serveur
-- Analyse des flux applicatifs
-- Bases de la segmentation réseau
-
-### Systèmes
-
-- Administration systèmes (environnement serveur)
-- Gestion des services
-- Déploiement applicatif
-- Notions de supervision et de disponibilité
-- Bases de la sécurité (principe du moindre privilège, exposition réseau)
-
----
-
-## Compétences transverses (support à l’admin)
-
-- **Java / Java Enterprise**
-  - compréhension des applications côté serveur
-  - diagnostic applicatif (ports, threads, services)
-- **WildFly**
-  - déploiement et exploitation de services JEE
-- **Maven**
-  - build et gestion des dépendances
-- **Architecture N-Tiers**
-  - séparation réseau / applicative / données
+#### 🌐 [Portfolio Professionnel sur Apache](https://professionnel.hopto.org)
+Site portfolio hébergé sur serveur web auto-hébergé
+- Serveur web Apache configuré et sécurisé
+- Hébergement autonome avec nom de domaine
+- Configuration SSL/TLS
+- **Stack:** Apache, HTML/CSS, Linux
 
 ---
 
-## Stack technique
+## 🔄 En Cours de Développement
 
-| Domaine | Technologies |
-|-------|--------------|
-| Réseau | TCP/IP, OSI |
-| Systèmes | Services serveur, déploiement |
-| Exploitation | Supervision, diagnostic |
-| Applicatif | Java, WildFly |
-| Build | Maven |
-| Architecture | N-Tiers |
+- 📝 **Documentation complète** de mes configurations et procédures sur GitHub
+- 🖥️ **Intégration de machines Windows** supplémentaires à l'Active Directory
+- 📊 **Mise en place d'outils de monitoring** (Zabbix/Prometheus) pour supervision infrastructure
+- 🤖 **Apprentissage de l'automatisation** avec Ansible et Terraform
 
 ---
 
-## Liens
+## 🏗️ Architecture de mon Homelab
 
-- GitHub : https://github.com/Ch3rch3ur  
-- Site : https://professionnel.hopto.org  
-- LinkedIn : https://linkedin.com/in/joris-godard-ba85b1350/
+Mon environnement de test est entièrement virtualisé sous **VirtualBox** :
+
+- **pfSense** : Pare-feu/routeur principal avec segmentation réseau (VLANs)
+- **Windows Server 2022** : Services Active Directory, DNS, DHCP
+- **Machines Linux variées** : Debian (production), Kali Linux (tests sécurité)
+- **VPN WireGuard** : Accès distant sécurisé à l'infrastructure
+- **Serveur Web Apache** : Hébergement de services et portfolio
+
+Cette infrastructure me permet de tester des configurations, simuler des environnements de production et développer mes compétences en conditions réelles.
 
 ---
 
-> Infrastructure stable → services fiables → applications maîtrisées
+## 📊 Statistiques GitHub
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ch3rch3ur&show_icons=true&theme=dark)
+
+---
+
+## 💬 À Propos
+
+Je documente mes projets et mes apprentissages sur GitHub pour laisser une trace de mon évolution technique et partager mes retours d'expérience avec la communauté. N'hésitez pas à explorer mes dépôts, me faire des retours ou échanger sur des sujets d'infrastructure IT !
+
+---
+
+💡 *En constante évolution, toujours à la recherche de nouveaux défis techniques.*
