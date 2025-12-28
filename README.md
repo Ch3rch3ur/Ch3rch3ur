@@ -1,46 +1,81 @@
-<h1 align="center">Hi, I'm <span style="color:#38bdf8;">Ch3rch3ur</span> 👨‍💻</h1>
+<h1 align="center">Fsociety (Ch3rch3ur)</h1>
 
 <p align="center">
-  <em>Un explorateur du code qui transforme la complexité en élégance.</em><br>
-  <em></em>
+  Administration Systèmes & Réseaux · TCP/IP · Exploitation · Sécurité de base
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&width=435&lines=Code+sans+prise+de+t%C3%AAte+;Build.+Test.+Deploy.;Exploring+Java+universes" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&width=520&lines=Administration+Syst%C3%A8mes+%26+R%C3%A9seaux;TCP%2FIP+%7C+OSI+Model;Services+%7C+Supervision+%7C+S%C3%A9curit%C3%A9;Build.+Deploy.+Operate." alt="Typing SVG" />
 </div>
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="animated snake" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github activity snake" />
 </p>
 
-> ✨ Ce snake suit l'activité GitHub dans un style interactif stylisé. Généré automatiquement par [Platane/snk](https://github.com/Platane/snk).
+---
+
+## Profil
+
+Ancien étudiant en **BTS CIEL – Informatique & Réseaux**, spécialisé en **administration systèmes et réseaux**.
+
+Approche orientée exploitation :
+- compréhension complète de la pile **OSI / TCP-IP**
+- mise en place, configuration et maintien des services
+- diagnostic réseau et applicatif
+- séparation claire entre **infrastructure**, **services** et **applications**
 
 ---
 
-## 🚀 À propos de moi
+## Compétences Systèmes & Réseaux
 
-🎓 Ancien étudiant en **BTS CIEL IR**, je me spécialise dans les architectures logicielles **N-Tiers** et la manipulation de **Java Enterprise**.  
-🧠 J'aime construire des applis efficaces, modulaires et bien pensées, **sans prise de tête**.  
-🔍 Toujours à la recherche de nouvelles idées et approches simples pour résoudre des problèmes complexes.
+### Réseaux
+
+- Modèle **OSI (L1 → L7)** et **TCP/IP**
+- Adressage IP, ports, services
+- Communication client/serveur
+- Analyse des flux applicatifs
+- Bases de la segmentation réseau
+
+### Systèmes
+
+- Administration systèmes (environnement serveur)
+- Gestion des services
+- Déploiement applicatif
+- Notions de supervision et de disponibilité
+- Bases de la sécurité (principe du moindre privilège, exposition réseau)
 
 ---
 
-## 🛠️ Stack actuelle
+## Compétences transverses (support à l’admin)
 
-| Langages & Outils | Description |
-|------------------|-------------|
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) | Back-end solide & objets bien encapsulés |
-| ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) | Build tool de confiance |
-| ![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white) | IDE |
-| ![Wildfly](https://img.shields.io/badge/Wildfly-000000?style=for-the-badge&logo=wildfly&logoColor=white) | Serveur JEE |
-| N-Tiers 3 niveaux | Physique, Métier, Client — bien séparés |
-| Beans & Servlets | L’essence du JEE |
+- **Java / Java Enterprise**
+  - compréhension des applications côté serveur
+  - diagnostic applicatif (ports, threads, services)
+- **WildFly**
+  - déploiement et exploitation de services JEE
+- **Maven**
+  - build et gestion des dépendances
+- **Architecture N-Tiers**
+  - séparation réseau / applicative / données
 
 ---
 
-## 📊 GitHub Stats
+## Stack technique
+
+| Domaine | Technologies |
+|-------|--------------|
+| Réseau | TCP/IP, OSI |
+| Systèmes | Services serveur, déploiement |
+| Exploitation | Supervision, diagnostic |
+| Applicatif | Java, WildFly |
+| Build | Maven |
+| Architecture | N-Tiers |
+
+---
+
+## GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ch3rch3ur&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -50,12 +85,12 @@
 
 ---
 
-## 📫 Liens utiles
+## Liens
 
-- 💼 [GitHub Profil](https://github.com/Ch3rch3ur)
-- 💼 [Site Web](https://professionnel.hopto.org)
-- 💼 [Linkedin](https://linkedin.com/in/joris-godard-ba85b1350/) 
+- GitHub : https://github.com/Ch3rch3ur  
+- Site : https://professionnel.hopto.org  
+- LinkedIn : https://linkedin.com/in/joris-godard-ba85b1350/
 
 ---
 
-🧬 *"Pas besoin de complexité quand la clarté fait le boulot."*
+> Infrastructure stable → services fiables → applications maîtrisées
