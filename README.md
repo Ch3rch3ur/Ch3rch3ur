@@ -45,7 +45,6 @@ Infrastructure multi-OS complète simulant un réseau d'entreprise
 - Infrastructure réseau virtualisée sous **VirtualBox** sur Kali Linux
 - Pare-feu **pfSense** dédié avec segmentation LAN/WAN
 - Machines virtuelles : Debian, Windows Server 2022 (évaluation 180 jours)
-- Règles de filtrage et contrôle des flux réseau
 - NAT configuré malgré contrainte d'une seule carte réseau physique
 - Configuration manuelle des interfaces réseau via `VBoxManage`
 - Réseau isolé du réseau local principal
