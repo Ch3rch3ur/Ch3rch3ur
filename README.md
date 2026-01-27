@@ -15,6 +15,7 @@ Titulaire d'un **BTS CIEL option IR**, je poursuis une montée en compétences e
 | **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
 | **Réseaux**        | Cisco (switches/routeurs - partiqué en formation), pfSense, WireGuard, TCP/IP, DNS (A/PTR/SRV), DHCP, VLAN, NAT, Firewall    |
 | **Virtualisation** | VirtualBox, Active Directory                                         |
+| **ITSM & Support** | GLPI, Ticketing, SLA, Procédures N1/N2, Gestion d'incidents                      |
 | **Scripting**      | Bash, Python, PowerShell                                                           |
 | **Services**       | Apache, VPN, Kerberos, SSSD, PAM, NSS, DNS                                 |
 | **Sécurité**       | Let's Encrypt, HTTPS, UFW, Headers HTTP (CSP, HSTS, X-Frame-Options)             |
@@ -28,6 +29,18 @@ Titulaire d'un **BTS CIEL option IR**, je poursuis une montée en compétences e
 Je développe des projets qui reproduisent des **scénarios réalistes d'entreprise** pour consolider mes compétences techniques. Chaque projet est documenté avec architecture, problèmes rencontrés et solutions apportées.
 
 ### 📌 Projets en Vedette
+
+#### 🎫 [Système ITSM GLPI avec Active Directory](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-GLPI)
+Déploiement d'un outil ITSM (GLPI) intégré à Active Directory pour gestion des incidents
+- Serveur GLPI 10.0.16 sur **Debian 12** avec stack **Apache/PHP 8.2/MariaDB 11.8**
+- Intégration **LDAP/Active Directory** pour authentification centralisée
+- Import automatique des utilisateurs AD avec gestion des profils (Technicien, Self-Service)
+- Configuration de **SLA** selon priorités (Haute: 4h, Moyenne: 8h, Basse: 24h)
+- **20+ tickets d'incidents réalistes** traités : réseau, comptes AD, matériel, logiciels
+- **5 procédures support N1** documentées (réinitialisation AD, diagnostic réseau OSI, VPN, DNS, escalade N2)
+- Base de connaissances opérationnelle
+- Résolution de problèmes complexes : incompatibilité PHP 8.4, conflit swap VirtualBox, attribut LDAP `sAMAccountName`
+- **Stack:** GLPI, Debian, Apache, PHP, MariaDB, LDAP, Active Directory, VirtualBox
 
 #### 🔐 [Intégration Linux ↔ Active Directory](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-ActiveDirectory-Debian)
 Authentification centralisée Active Directory pour systèmes Linux Debian
@@ -90,12 +103,13 @@ Mon environnement de test reproduit une infrastructure d'entreprise complète :
 
 - **Pare-feu pfSense** : Segmentation réseau LAN/WAN, règles de filtrage, contrôle des flux
 - **Windows Server 2022** : Active Directory, DNS (A/PTR/SRV), DHCP, Kerberos KDC
+- **Serveur GLPI (Debian 12)** : Gestion des incidents ITSM intégré à Active Directory via LDAP
 - **Clients Linux** : Debian (intégré au domaine AD), Kali Linux (hôte de virtualisation)
 - **VPN WireGuard sur Raspberry Pi 5** : Accès distant sécurisé avec pare-feu UFW
 - **Serveur Web Apache sur Raspberry Pi 5** : Portfolio public HTTPS avec headers de sécurité
 
 Cette infrastructure me permet de :
-- Simuler des scénarios d'entreprise réalistes
+- Simuler des scénarios d'entreprise réalistes (support N1/N2, ticketing, authentification centralisée)
 - Tester l'intégration Windows/Linux
 - Appliquer des bonnes pratiques de sécurité réseau
 - Développer mes compétences en conditions proches de la production
@@ -105,6 +119,7 @@ Cette infrastructure me permet de :
 ## 🎯 Objectifs
 
 - Consolider mes compétences en administration systèmes et réseaux
+- Développer une expertise en **support utilisateurs et gestion d'incidents**
 - Me préparer à une **licence professionnelle Administrateur Systèmes & Réseaux**
 - Comprendre les mécanismes sous-jacents au-delà du "clé en main"
 - Apprendre les bonnes pratiques professionnelles (sécurité, maintenance, documentation)
@@ -126,7 +141,7 @@ Je documente mes projets et mes apprentissages sur GitHub pour laisser une trace
 - Scripts et fichiers de configuration
 - Compétences démontrées et améliorations possibles
 
-Ces projets reproduisent des scénarios professionnels : authentification centralisée, sécurité réseau, séparation des privilèges, et exposition de services en production.
+Ces projets reproduisent des scénarios professionnels : authentification centralisée, gestion d'incidents ITSM, support N1/N2, sécurité réseau, séparation des privilèges, et exposition de services en production.
 
 📎 Mon profil évolue régulièrement avec l'ajout de nouvelles fonctionnalités et documentation.
 
