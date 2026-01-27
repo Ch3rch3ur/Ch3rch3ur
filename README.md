@@ -36,6 +36,7 @@ Déploiement d'un outil ITSM (GLPI) intégré à Active Directory pour gestion d
 - Intégration **LDAP/Active Directory** pour authentification centralisée
 - Import automatique des utilisateurs AD avec gestion des profils (Technicien, Self-Service)
 - Configuration de **SLA** selon priorités (Haute: 4h, Moyenne: 8h, Basse: 24h)
+- Configuration de **SLA** VIP (TTO : 1H Max (-30 minutes avant la fin du ticket escalade vers N2) TTR : 2H Max (-40 minutes escalade N2))
 - **20+ tickets d'incidents réalistes** traités : réseau, comptes AD, matériel, logiciels
 - **5 procédures support N1** documentées (réinitialisation AD, diagnostic réseau OSI, VPN, DNS, escalade N2)
 - Base de connaissances opérationnelle
