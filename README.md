@@ -2,7 +2,7 @@
 
 ## 🔧 Administrateur Systèmes & Réseaux
 
-Titulaire d'un **BTS CIEL option IR**, je poursuis une montée en compétences en administration systèmes et réseaux à travers des projets personnels documentés. Mon expertise couvre l'administration système, la virtualisation, la sécurité réseau et l'intégration d'environnements Windows/Linux en contexte professionnel.
+Je poursuis une montée en compétences en administration systèmes et réseaux à travers des projets personnels documentés. Mon expertise couvre l'administration système, la virtualisation, la sécurité réseau et l'intégration d'environnements Windows/Linux en contexte professionnel.
 
 📍 **France** | 📫 [GitHub](https://github.com/Ch3rch3ur) | [Portfolio](https://professionnel.hopto.org) | [LinkedIn](https://linkedin.com/in/joris-godard-ba85b1350/)
 
