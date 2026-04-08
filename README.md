@@ -91,10 +91,10 @@ Hébergement d'un portfolio personnel avec sécurisation complète
 ## 🔄 Prochaines étapes
 
 - 📝 **Documentation complète** de mes configurations et procédures sur GitHub
-<!-- - 🖥️ **Intégration de machines Windows** supplémentaires à l'Active Directory -->
 - 📊 **Mise en place d'outils de monitoring** (Zabbix/Prometheus) pour supervision d'infrastructure
 - 🤖 **Automatisation des déploiements** avec Ansible et Terraform
 - 🔐 **Centralisation des logs** et exploitation pour améliorer la sécurité
+<!-- - 🖥️ **Intégration de machines Windows** supplémentaires à l'Active Directory -->
 
 ---
 
