@@ -14,14 +14,16 @@ Je poursuis une montée en compétences en administration systèmes et réseaux 
 |--------------------|------------------------------------------------------------------------------------|
 | **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
 | **Réseaux**        | Cisco (switches/routeurs - partiqué en formation), pfSense, WireGuard, TCP/IP, DNS (Bind9,A/PTR/SRV), DHCP, VLAN, NAT, Firewall (nftables,UFW)    |
-| **Automatisation & IaC**       | Ansible (rôles, playbooks, séparation des comptes de service), Ansible Vault (gestion des secrets)             |
+| **Automatisation & IaC**       | Ansible (rôles, playbooks, séparation des comptes de service), Ansible Vault (gestion des secrets)     |
+| **Supervision**       | Netdata (collecteurs 'go.d' personnalisés)       |
+| **Sauvegarde & PRA**       | Restic (sauvegardes chiffrées, versionnées), conception et validation de Plan de Reprise d'Activité     |
 | **Virtualisation** | VirtualBox, Active Directory                                         |
-| **ITSM & Support** | GLPI, Ticketing, SLA, Procédures N1/N2, Gestion d'incidents                      |
-| **Scripting**      | Bash, Python, PowerShell                                                           |
+| **ITSM & Support** | GLPI, Ticketing, SLA, Procédures N1/N2, Gestion d'incidents                 |
+| **Scripting**      | Bash, Python, PowerShell                                                        |
 | **Services**       | Apache, VPN, Kerberos, SSSD, PAM, NSS, DNS                                 |
 | **Sécurité**       | Let's Encrypt, HTTPS, UFW, Headers HTTP (CSP, HSTS, X-Frame-Options)             |
 | **Authentification** | Active Directory, Kerberos, LDAP, Gestion des privilèges                        |
-| **En apprentissage** | Monitoring (Zabbix, Prometheus), Automatisation (Ansible, Terraform)            |
+| **En apprentissage** | Monitoring avancé (Zabbix, Prometheus)            |
 
 ---
 
