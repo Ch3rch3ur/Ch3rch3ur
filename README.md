@@ -33,6 +33,17 @@ Je développe des projets qui reproduisent des **scénarios réalistes d'entrepr
 
 ### 📌 Projets en Vedette
 
+#### 🛠️ [SI-Lab — Infrastructure résiliente avec Plan de Reprise d'Activité (PRA)](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-SI-Lab-PRA)
+Infrastructure Debian complète (DNS, Web, VPN, Firewall, Supervision, Sauvegarde) entièrement automatisée via **Ansible**, conçue pour être reconstruite en moins de 10 minutes après une panne ou une compromission
+- Déploiement Infrastructure as Code via **Ansible** : rôles dédiés par service, séparation stricte des comptes (`ansible`, `restic`, `machine`)
+- Services DNS (**Bind9**), Web (**Nginx**), VPN (**WireGuard**, y compris client mobile Android avec QR code), Firewall (**nftables**)
+- Supervision temps réel avec **Netdata** : collecteurs `go.d` personnalisés (Nginx, Bind9, WireGuard, systemd, weblogs)
+- Sauvegardes chiffrées via **Restic** (locale toutes les 4h, distante quotidienne) avec gestion des secrets par **Ansible Vault**
+- Exercice **Red Team / Blue Team (PRA)** en cours, basé sur une véritable faille de sécurité nftables découverte en production plutôt qu'un scénario artificiel
+- Documentation complète : architecture, incidents rencontrés (misconfiguration nftables, résolution DNS split-horizon, syntaxe Bind9...) et solutions
+- **Stack:** Debian 12/13, Ansible, Ansible Vault, Bind9, Nginx, WireGuard, nftables, Netdata, Restic, Kali Linux
+
+
 #### 🎫 [Système ITSM GLPI avec Active Directory](https://github.com/Ch3rch3ur/Projets-personnelles/tree/main/Projet-GLPI)
 Déploiement d'un outil ITSM (GLPI) intégré à Active Directory pour gestion des incidents
 - Serveur GLPI 10.0.16 sur **Debian 12** avec stack **Apache/PHP 8.2/MariaDB 11.8**
@@ -93,11 +104,11 @@ Hébergement d'un portfolio personnel avec sécurisation complète
 
 ## 🔄 Prochaines étapes
 
+- ⚔️ **Finalisation du PRA** sur SI-Lab : exploitation de la faille nftables réelle et validation de la restauration complète en moins de 10 minutes
+- 📊 **Finalisation du debug Netdata** (alertes de santé personnalisées) et extension du monitoring (Zabbix/Prometheus)
 - 📝 **Documentation complète** de mes configurations et procédures sur GitHub
-- 📊 **Mise en place d'outils de monitoring** (Zabbix/Prometheus) pour supervision d'infrastructure
-- 🤖 **Automatisation des déploiements** avec Ansible et Terraform
+- 🤖 **Automatisation avancée** avec Terraform, en complément d'Ansible déjà en place
 - 🔐 **Centralisation des logs** et exploitation pour améliorer la sécurité
-<!-- - 🖥️ **Intégration de machines Windows** supplémentaires à l'Active Directory -->
 
 ---
 
@@ -105,6 +116,9 @@ Hébergement d'un portfolio personnel avec sécurisation complète
 
 Mon environnement de test reproduit une infrastructure d'entreprise complète :
 
+- **SI-Lab (Debian)** : serveur de production automatisé via Ansible (DNS Bind9, Web Nginx, VPN WireGuard, Firewall nftables, Supervision Netdata)
+- **Serveur de stockage** : serveur de sauvegarde distant (Restic)
+- **Client malveillant** : machine Kali dédiée aux exercices de Red Team / PRA
 - **Pare-feu pfSense** : Segmentation réseau LAN/WAN, règles de filtrage, contrôle des flux
 - **Windows Server 2022** : Active Directory, DNS (A/PTR/SRV), DHCP, Kerberos KDC
 - **Serveur GLPI (Debian 12)** : Gestion des incidents ITSM intégré à Active Directory via LDAP
@@ -127,6 +141,7 @@ Cette infrastructure me permet de :
 - Me préparer à une **licence professionnelle Administrateur Systèmes & Réseaux**
 - Comprendre les mécanismes sous-jacents au-delà du "clé en main"
 - Apprendre les bonnes pratiques professionnelles (sécurité, maintenance, documentation)
+- Monter en compétences sur l'automatisation (Infrastrucure as Code) et la résilience des systèmes (supervision, sauvegarde, PRA)
 - Partager mes expériences et retours d'expérience avec la communauté
 
 ---
@@ -145,7 +160,7 @@ Je documente mes projets et mes apprentissages sur GitHub pour laisser une trace
 - Scripts et fichiers de configuration
 - Compétences démontrées et améliorations possibles
 
-Ces projets reproduisent des scénarios professionnels : authentification centralisée, gestion d'incidents ITSM, support N1/N2, sécurité réseau, séparation des privilèges, et exposition de services en production.
+Ces projets reproduisent des scénarios professionnels : authentification centralisée, gestion d'incidents ITSM, support N1/N2, sécurité réseau, automatisation d'infrastructure, supervision, sauvegarde et plan de reprise d'activité, séparation des privilèges, et exposition de services en production.
 
 📎 Mon profil évolue régulièrement avec l'ajout de nouvelles fonctionnalités et documentation.
 
