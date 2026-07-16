@@ -13,7 +13,7 @@ Je poursuis une montée en compétences en administration systèmes et réseaux 
 | Catégorie          | Technologies/Outils                                                                 |
 |--------------------|------------------------------------------------------------------------------------|
 | **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
-| **Réseaux**        | Cisco (switches/routeurs - partiqué en formation), pfSense, WireGuard, TCP/IP, DNS (A/PTR/SRV), DHCP, VLAN, NAT, Firewall    |
+| **Réseaux**        | Cisco (switches/routeurs - partiqué en formation), pfSense, WireGuard, TCP/IP, DNS (Bind9,A/PTR/SRV), DHCP, VLAN, NAT, Firewall (nftables,UFW)    |
 | **Virtualisation** | VirtualBox, Active Directory                                         |
 | **ITSM & Support** | GLPI, Ticketing, SLA, Procédures N1/N2, Gestion d'incidents                      |
 | **Scripting**      | Bash, Python, PowerShell                                                           |
