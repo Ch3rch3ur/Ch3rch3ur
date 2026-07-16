@@ -14,6 +14,7 @@ Je poursuis une montée en compétences en administration systèmes et réseaux 
 |--------------------|------------------------------------------------------------------------------------|
 | **Systèmes**       | Debian, Linux Mint, Kali Linux, Raspberry Pi OS, Windows Server 2022             |
 | **Réseaux**        | Cisco (switches/routeurs - partiqué en formation), pfSense, WireGuard, TCP/IP, DNS (Bind9,A/PTR/SRV), DHCP, VLAN, NAT, Firewall (nftables,UFW)    |
+| **Automatisation & IaC**       | Ansible (rôles, playbooks, séparation des comptes de service), Ansible Vault (gestion des secrets)             |
 | **Virtualisation** | VirtualBox, Active Directory                                         |
 | **ITSM & Support** | GLPI, Ticketing, SLA, Procédures N1/N2, Gestion d'incidents                      |
 | **Scripting**      | Bash, Python, PowerShell                                                           |
