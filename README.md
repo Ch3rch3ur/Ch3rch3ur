@@ -131,6 +131,7 @@ Cette infrastructure me permet de :
 - Tester l'intégration Windows/Linux
 - Appliquer des bonnes pratiques de sécurité réseau
 - Développer mes compétences en conditions proches de la production
+- Éprouver la résilience réelle de mes services face à une panne ou une attaque
 
 ---
 
