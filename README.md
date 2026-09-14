@@ -105,7 +105,6 @@ Hébergement d'un portfolio personnel avec sécurisation complète
 ## 🔄 Prochaines étapes
 
 - ⚔️ **Finalisation du PRA** sur SI-Lab : exploitation de la faille nftables réelle et validation de la restauration complète en moins de 10 minutes
-- 📊 **Finalisation du debug Netdata** (alertes de santé personnalisées) et extension du monitoring (Zabbix/Prometheus)
 - 📝 **Documentation complète** de mes configurations et procédures sur GitHub
 - 🤖 **Automatisation avancée** avec Terraform, en complément d'Ansible déjà en place
 - 🔐 **Centralisation des logs** et exploitation pour améliorer la sécurité
